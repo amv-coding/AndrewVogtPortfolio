@@ -90,10 +90,12 @@ footer {
 
 /* ---  The styling for headers, and general paragraphs --- */
 /*--went with sans-serif fonts since they are easier on the eyes--*/
+/* -- also pertaining to aethstetics i underlined the headers i think it's more appealing--*/
 h1 {
   font-size: 28px;
   font-family: arial,verdana, sans-serif;
   font-weight: 400;
+text-decoration: underline;
   color: #403933;
 }
 
@@ -101,12 +103,14 @@ h2 {
   font-size: 26px;
   font-family: arial,verdana, sans-serif;
   font-weight: 400;
+  text-decoration: underline;
   margin: 0 10px;
 }
 h3{
 	font-size: 16px;
 	font-family: arial, verdana, sans-serif;
 	font-weight:400;
+	text-decoration: underline;
 }
 
 p {
