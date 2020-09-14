@@ -11,7 +11,7 @@ header {
 }
 /*color is called chrysler dark garnet red I like dark red it's a cool color--*/
 .logo {
-  font-family: Times New Roman, cursive;
+  font-family: Times New Roman, Georgia,serif;
   font-size: 72px;
   color: #000000;
   text-align: center;
@@ -33,7 +33,7 @@ header nav ul {
   flex-direction: center;
   padding-bottom: 0;
 }
-
+/*styling for header types*/
 header nav ul li {
   list-style-type: none;
 }
@@ -42,7 +42,7 @@ header nav ul li a {
   color: #000;
   text-decoration: none;
   padding: 0 20px 0 0;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: arial,verdana, sans-serif;
 }
 
 header nav ul li a:hover {
@@ -89,29 +89,24 @@ footer {
 }
 
 /* ---  The styling for headers, and general paragraphs --- */
-
+/*--went with sans-serif fonts since they are easier on the eyes--*/
 h1 {
   font-size: 28px;
-  font-family: 'Montserrat Alternates', sans-serif;
+ 
+  font-family: arial,verdana, sans-serif;
   font-weight: 400;
   color: #403933;
 }
 
 h2 {
   font-size: 26px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: arial,verdana, sans-serif;
   font-weight: 400;
   margin: 0 10px;
 }
 
-h3 {
-  font-size: 18px;
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 500;
-}
-
 p {
- font-family: 'Montserrat', sans-serif;
+ font-family: arial, verdana, sans-serif;
  line-height: 1.5em;
  margin-bottom: 0;
 }
