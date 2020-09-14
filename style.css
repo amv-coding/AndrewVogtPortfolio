@@ -9,13 +9,12 @@ header {
   background-color: #403933;
   margin-bottom: 40px;
 }
-
+/*color is called chrysler dark garnet red I like dark red it's a cool color--*/
 .logo {
-  font-family: 'Nanum Pen Script', cursive;
+  font-family: Times New Roman, cursive;
   font-size: 72px;
-  color: #c5c0b8;
-  text-align: center;
-  letter-spacing: -3;
+  color: #781c2e;
+  text-align: left;
   margin: 0;
   padding: 20px 0 0 0;
 }
@@ -40,7 +39,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   padding: 0 20px 0 0;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -76,16 +75,16 @@ main {
 section {
   margin-bottom: 100px;
 }
-
+/*for the next section i want it to also have that really cool chryslergarnet red--*/
 section.dark-background {   
-  background-color: #c5c0b8;
+  background-color: #781c2e;
   padding-top: 80px;
   padding-bottom: 80px;
   margin: 80px 0;
 }
-
+/*the footer to keep things streamlined should also have the chrysler garnet red--*/
 footer {
-  background-color: #403933;
+  background-color: #781c2e;
   margin-top: 40px;
   margin-bottom: 0;
 }
@@ -134,7 +133,7 @@ a:hover {
 }
 
 footer p {
-  color: #fff;
+  color: #000;
   text-align: center;
   padding: 20px;
 }
