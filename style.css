@@ -1,4 +1,4 @@
-/* -------  General Styles ------- */
+/* --styles the body of the html ------- */
 
 body {
   margin: 0;
@@ -21,14 +21,14 @@ header {
 }
 
 
-/* ---  Navigation --- */
+/* ---  Styles for navigation--- */
 
 header nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-
+/* --- styles the navigation headers--*/
 header nav ul {
   display: flex;
   flex-direction: row;
@@ -49,15 +49,15 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #bdbdbd;
 }
-
-@media all and (min-width: 700px) {
+/* styling for mobile always think mobile-first--*/
+@media all and (min-width: 600px) {
   header {
     display: flex;
     justify-content: space-between;
   }
 
   .logo {
-    margin: 14px 0 14px 20px;
+    margin: 12px 0 12px 20px;
     padding-top: 0;
     font-size: 42px;
   }
@@ -67,7 +67,7 @@ header nav ul li a:hover {
   }
 }
 
-/* ---  Primary Groups --- */
+/* ---   --- */
 
 main {
   padding: 20px 0;
@@ -90,7 +90,7 @@ footer {
   margin-bottom: 0;
 }
 
-/* ---  Typography --- */
+/* ---  The styling for headers, and general paragraphs --- */
 
 h1 {
   font-size: 28px;
@@ -149,8 +149,8 @@ img.image-enhanced {
 }
 
 .group {
-  display: flex;
-  flex-direction: column;
+  display: flex-grow;
+  flex-direction: row;
 }
 
 .item {
@@ -171,7 +171,7 @@ img.image-enhanced {
     padding: 0 10%;
   }
   .group {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 
@@ -180,8 +180,8 @@ img.image-enhanced {
 /* Contact Form Design */
 
 form {
-  padding-right: 8px;
-  /* Fixed small sizing issue on the right */
+  padding-right: 10px;
+ 
 }
 
 form label {
@@ -191,9 +191,9 @@ form label {
 form input, 
 form textarea {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 form textarea {
-  height: 160px;
+  height: 200px;
 }
