@@ -6,14 +6,14 @@ body {
 }
 
 header {
-  background-color: #ce2029;
+  background-color: #FFFFFF;
   margin-bottom: 40px;
 }
 /*color is updated to fire engine red to adjust for accessbility red it's a cool color--*/
 .logo {
   font-family: Times New Roman, Georgia,serif;
   font-size: 72px;
-  color: #000000;
+  color: #FFFFFFF;
   text-align: center;
   margin: 0;
   padding: 20px 0 0 0;
@@ -76,14 +76,14 @@ section {
 }
 /*for the next section i want it to also have that really cool chryslergarnet red--*/
 section.dark-background {   
-  background-color: #ce2029;
+  background-color: #FFFFFF
   padding-top: 80px;
   padding-bottom: 80px;
   margin: 80px 0;
 }
 /*the footer to keep things streamlined should also have the chrysler garnet red--*/
 footer {
-  background-color: #ce2029;
+  background-color: #FFFFFF;
   margin-top: 40px;
   margin-bottom: 0;
 }
