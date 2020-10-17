@@ -10,7 +10,7 @@ body {
 
 .navbar {
     display: flex;
-    position: relative;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
@@ -98,15 +98,7 @@ body {
     }
 }
 
-body {
-  margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
-}
 
-header {
-  background-color: #CDCDCD;
-  margin-bottom: 40px;
-}
 /*color is updated to very light grey to adjust for accessbility red it's a cool color--*/
 .logo {
   font-family: Times New Roman, Georgia,serif;
@@ -146,31 +138,7 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #bdbdbd;
 }
-/* styling for mobile always think mobile-first--*/
-@media all and (min-width: 600px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
 
-  .logo {
-    margin: 12px 0 12px 20px;
-    padding-top: 0;
-    font-size: 42px;
-  }
-  
-  header nav {
-    margin-top: 14px;
-  }
-}
-
-
-main {
-  padding: 20px 0;
-}
-
-section {
-  margin-bottom: 100px;
 }
 /*for the next section i want it to also have that really cool chryslergarnet red--*/
 section.dark-background {   
@@ -224,12 +192,12 @@ main a {
 
 main  a:link { color: #38786a; }
 main  a:visited { color: #38786a; }
-main  a:hover { color: #000000; }
-a:active { color: #000000; }
+main  a:hover { color: #ffffff; }
+a:active { color: #ffffff; }
 
 
 a:hover {
-	text-decoration: underline;	
+	text-decoration: none;	
 }
 
 footer p {
@@ -261,21 +229,6 @@ img.image-enhanced {
 .item-double {
   flex: 2;
 }
-
-
-
-/* ---  (Desktop) Groups & Items --- */
-
-@media all and (min-width: 800px) {
-  section {
-    padding: 0 10%;
-  }
-  .group {
-    flex-direction: column;
-  }
-}
-
-
 
 /* Contact Form Design */
 
